@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: #000;
+    margin: 0 auto;
+    font-family: Century Gothic, Hero, Geneva, sans-serif;
+    font-size: 100%;
+    margin: 0 auto;
+    width: 1250px;
+}
+
+header {
+    background-color: #b3b6b7;
+    min-height: 200px;
+}
+
+nav {
+    background-color: #7b7d7d;
+    list-style-type: none;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-left: 25px;
+    padding-top: 20px;
+}
+
+li {
+    color: #FFF;
+    display: inline-block;
+    padding-left: 15px;
+    padding-right: 15px;
+    list-style-type: none;
+}
+
+.nav-links:link {
+    display: inline-block;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: #FFF;
+    text-decoration: none;
+}
+
+.nav-links:visited {
+    color: #FFF;
+    text-decoration: none;
+}
+
+.nav-links:hover {
+    color: #000;
+}
+
+.current-page {
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+article {
+    background-color: #b3b6b7;
+    padding-bottom: 20px;
+}
+
+.reference-image {
+    left: 150px;
+    padding: 10px 10px 15px 0;
+    position: relative;
+}
+
+h1 {
+    background-color: #b3b6b7;
+    color: #FFF;
+    font-family: Century Gothic, Hero, Geneva, sans-serif;
+    font-size: 2.1875em;
+    padding: 25px 25px 25px 15px;
+}
+
+h2 {
+    background-color: #b3b6b7;
+    color: #FFF;
+    font-family: Century Gothic, Hero, Geneva, sans-serif;
+    font-size: 1.75em;
+    padding-bottom: 20px;
+    padding-left: 25px;
+    padding-top: 20px;
+}
+
+h3 {
+    background-color: #b3b6b7;
+    color: #FFF;
+    list-style-type: none;
+    padding-bottom: 20px;
+    padding-left: 25px;
+    padding-top: 20px;
+}
+
+p {
+    background-color: #b3b6b7;
+    color: #FFF;
+    font-size: 20px;
+    padding-bottom: 20px;
+    padding-left: 25px;
+    padding-top: 20px;
+}
+
+.gallery figure {
+    color: blue;
+    float: left;
+    height: 200px;
+    margin: 20px;
+    text-align: center;
+    width: 28%;
+}
+
+footer {
+    text-align: left;
+    clear: both
+}
